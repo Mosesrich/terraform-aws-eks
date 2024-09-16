@@ -19,7 +19,7 @@ module "oct-eks" {
   az_two         = "Enter your second az"
   vpc_id         = "aws_vpc.eks_vpc.id"
   eks_version    = "1.30"
-  ami_type       = "UBUNTU_x86_64"
+  ami_type       = "AL2_x86_64"
   instance_types = ["t2.medium", "t2.large"]
   capacity_type  = "ON_DEMAND"
 
