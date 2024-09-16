@@ -139,7 +139,7 @@ variable "eks_version" {
 variable "desired_size" {
   description = "The desired number of worker nodes."
   type        = number
-  default     = 4
+  default     = 2
 }
 # Variable for worker nodes min size
 variable "min_size" {
