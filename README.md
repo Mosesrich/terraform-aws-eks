@@ -6,7 +6,7 @@
 
 module "oct-eks" {
   source  = "mosesrich/eks/aws"
-  version = "v1.0.2"
+  version = "v1.0.0"
   region         = "Enter your Providers region here"
   vpc_cidr       = "10.0.0.0/16"
   dns_hostnames  = true
